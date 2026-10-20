@@ -24,73 +24,93 @@
         <div class="py-12 px-4">
             <img src="herlangga.jpeg" alt="Foto Profil" class="w-40 h-40 object-cover rounded-full mx-auto mb-6 border-4 border-ocean shadow-lg">
             <h1 class="text-4xl md:text-5xl font-bold mb-3 tracking-wide">Muhammad Herlangga Kurniawan</h1>
-            <p class="text-xl text-gray-200 font-light">Eksplorasi Jaringan Komputer & Fun Facts Dunia Laut</p>
+            <p class="text-xl text-gray-200 font-light">Siswa TKJ & Antusias Jaringan Komputer</p>
         </div>
     </header>
 
     <!-- KONTEN UTAMA -->
     <main class="max-w-5xl mx-auto p-6 md:p-10 my-10 bg-white shadow-xl rounded-2xl border-t-4 border-ocean flex-grow">
         
-        <!-- PROFIL RINGKAS -->
-        <section class="text-center mb-10">
-            <i class="fa-solid fa-lightbulb text-ocean text-5xl mb-4"></i>
-            <h2 class="text-3xl font-bold text-maroon mb-4">Tahukah Kamu?</h2>
-            <p class="text-gray-700 leading-relaxed text-lg max-w-2xl mx-auto">
-                Selamat datang! Di sini kita tidak cuma bahas server yang kaku, tapi juga hal-hal unik seputar teknologi jaringan yang ternyata punya hubungan unik dengan misteri lautan!
-            </p>
+        <!-- BAGIAN: SIAPA SAYA (PERKENALAN DIRI) -->
+        <section class="mb-12 border-b-2 border-gray-100 pb-10 text-center md:text-left">
+            <div class="flex flex-col md:flex-row items-center gap-6">
+                <div class="bg-blue-50 p-6 rounded-2xl border-2 border-ocean/20 text-ocean text-4xl hidden md:block">
+                    <i class="fa-solid fa-user-gear"></i>
+                </div>
+                <div>
+                    <span class="bg-ocean/10 text-ocean font-bold text-xs uppercase tracking-wider px-3 py-1 rounded-full">Perkenalan Singkat</span>
+                    <h2 class="text-3xl font-bold text-maroon mt-2 mb-4">Halo, Salam Kenal! 👋</h2>
+                    <p class="text-gray-700 leading-relaxed text-base mb-4">
+                        Saya <b>Muhammad Herlangga Kurniawan</b> dari kelas <b>12 TKJ B</b>. Sehari-hari di sekolah, saya sibuk ngutak-atik jaringan komputer—mulai dari konfigurasi IP address, setting router, crimping kabel LAN, sampai nyoba memahami gimana caranya data bisa terikirim antar komputer tanpa *packet loss*.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed text-base">
+                        Di luar aktivitas lab TKJ, saya punya ketertarikan unik sama ekosistem laut. Lucunya, makin dipelajari, ternyata cara kerja jaringan komputer yang kita pakai tiap hari itu mirip banget sama fenomena unik yang ada di dasar samudra. Lewat website ini, saya mau bagikan sedikit paduan unik antara dunia IT dan misteri laut!
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <!-- GRID FUN FACTS KREATIF -->
-        <section class="grid md:grid-cols-2 gap-6 mb-10">
-            
-            <!-- Fun Fact 1 -->
-            <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
-                <div class="flex items-center gap-3 mb-3">
-                    <span class="text-3xl">🦈</span>
-                    <h3 class="text-xl font-bold text-maroon">Hiu Suka 'Gigit' Internet!</h3>
-                </div>
-                <p class="text-gray-700 text-sm leading-relaxed">
-                    Kabel serat optik bawah laut memancarkan medan listrik kecil. Hiu sering mengira kabel internet ini sebagai mangsanya dan mencoba menggigitnya! Itulah kenapa sekarang kabel laut dilapisi pelindung baja ekstra tebal.
-                </p>
+        <!-- BAGIAN: FUN FACTS -->
+        <section class="mb-10">
+            <div class="text-center mb-8">
+                <h3 class="text-2xl font-bold text-maroon flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-lightbulb text-ocean"></i> Tahukah Kamu?
+                </h3>
+                <p class="text-gray-600 text-sm mt-1">Beberapa fakta seru bertemunya teknologi jaringan & fauna laut</p>
             </div>
 
-            <!-- Fun Fact 2 -->
-            <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
-                <div class="flex items-center gap-3 mb-3">
-                    <span class="text-3xl">🐬</span>
-                    <h3 class="text-xl font-bold text-maroon">Lumba-Lumba & Sistem 'Ping'</h3>
+            <!-- GRID FUN FACTS -->
+            <div class="grid md:grid-cols-2 gap-6">
+                
+                <!-- Fun Fact 1 -->
+                <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-3xl">🦈</span>
+                        <h4 class="text-xl font-bold text-maroon">Hiu Suka 'Gigit' Internet!</h4>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed">
+                        Kabel serat optik bawah laut memancarkan medan listrik kecil. Hiu sering mengira kabel internet ini sebagai mangsanya dan mencoba menggigitnya! Itulah kenapa sekarang kabel laut dilapisi pelindung baja ekstra tebal.
+                    </p>
                 </div>
-                <p class="text-gray-700 text-sm leading-relaxed">
-                    Saat komputer mengirim perintah <i>Ping</i> untuk mengecek koneksi, prosesnya mirip ekolokasi lumba-lumba: kirim gelombang sinyal, tunggu pantulan balik, lalu hitung jarak serta responsnya!
-                </p>
-            </div>
 
-            <!-- Fun Fact 3 -->
-            <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
-                <div class="flex items-center gap-3 mb-3">
-                    <span class="text-3xl">🌐</span>
-                    <h3 class="text-xl font-bold text-maroon">Internet Itu 'Rebahan' di Laut</h3>
+                <!-- Fun Fact 2 -->
+                <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-3xl">🐬</span>
+                        <h4 class="text-xl font-bold text-maroon">Lumba-Lumba & Sistem 'Ping'</h4>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed">
+                        Saat anak TKJ melakukan perintah <i>Ping</i> untuk cek koneksi, jalurnya mirip ekolokasi lumba-lumba: kirim gelombang sinyal, tunggu pantulan balik, lalu ukur berapa cepat responsnya.
+                    </p>
                 </div>
-                <p class="text-gray-700 text-sm leading-relaxed">
-                    Banyak yang kira internet berasal dari satelit luar angkasa. Padahal, sekitar <b>99% data internet dunia</b> dikirim lewat jutaan kilometer kabel yang dibentangkan tepat di dasar samudra tempat tinggal para ikan!
-                </p>
-            </div>
 
-            <!-- Fun Fact 4 -->
-            <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
-                <div class="flex items-center gap-3 mb-3">
-                    <span class="text-3xl">🐠</span>
-                    <h3 class="text-xl font-bold text-maroon">Terumbu Karang = Data Center Alami</h3>
+                <!-- Fun Fact 3 -->
+                <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-3xl">🌐</span>
+                        <h4 class="text-xl font-bold text-maroon">Internet Itu 'Rebahan' di Laut</h4>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed">
+                        Bukan melayang di satelit, sekitar <b>99% data internet dunia</b> ternyata dikirim lewat jutaan kilometer kabel yang dibentangkan tepat di dasar samudra tempat tinggal para ikan!
+                    </p>
                 </div>
-                <p class="text-gray-700 text-sm leading-relaxed">
-                    Sama seperti <i>Data Center</i> yang menyimpan dan membagikan informasi ke jutaan perangkat, terumbu karang adalah pusat pertukaran nutrisi dan energi paling sibuk bagi jutaan spesies laut.
-                </p>
-            </div>
 
+                <!-- Fun Fact 4 -->
+                <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-3xl">🐠</span>
+                        <h4 class="text-xl font-bold text-maroon">Terumbu Karang = Data Center Alami</h4>
+                    </div>
+                    <p class="text-gray-700 text-sm leading-relaxed">
+                        Sama seperti <i>Data Center</i> yang menyimpan dan membagikan informasi ke jutaan perangkat, terumbu karang adalah pusat pertukaran nutrisi paling sibuk bagi jutaan spesies laut.
+                    </p>
+                </div>
+
+            </div>
         </section>
 
         <!-- NAVIGASI HALAMAN -->
-        <div class="text-center pt-2">
+        <div class="text-center pt-4">
             <div class="flex flex-wrap justify-center gap-4">
                 <a href="artikel.html" class="bg-ocean text-white px-6 py-3 rounded-full font-bold hover:bg-maroon transition shadow-md flex items-center gap-2">
                     <i class="fa-solid fa-book-open"></i> Eksplor Artikel Mamalia Laut
