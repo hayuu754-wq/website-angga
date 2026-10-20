@@ -14,7 +14,7 @@
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
 
-    <!-- HEADER & NAVIGASI (3 Hyperlink Navigasi) -->
+    <!-- HEADER & NAVIGASI -->
     <header class="bg-maroon text-white text-center border-b-8 border-ocean shadow-md">
         <nav class="bg-maroon/90 p-4 flex justify-center gap-8 text-lg">
             <a href="index.html" class="text-ocean font-bold underline decoration-2 underline-offset-4">Beranda</a>
@@ -22,37 +22,93 @@
             <a href="kontak.html" class="hover:text-ocean transition duration-300 font-semibold">Kontak</a>
         </nav>
         <div class="py-12 px-4">
-            <!-- Avatar yang sudah diubah ke herlangga.jpeg -->
             <img src="herlangga.jpeg" alt="Foto Profil" class="w-40 h-40 object-cover rounded-full mx-auto mb-6 border-4 border-ocean shadow-lg">
-            
             <h1 class="text-4xl md:text-5xl font-bold mb-3 tracking-wide">Muhammad Herlangga Kurniawan</h1>
-            <p class="text-xl text-gray-200 font-light">Selamat datang di blog pribadi saya.</p>
+            <p class="text-xl text-gray-200 font-light">Eksplorasi Jaringan Komputer & Fun Facts Dunia Laut</p>
         </div>
     </header>
 
-    <!-- KONTEN UTAMA (3 Hyperlink Konten) -->
-    <main class="max-w-4xl mx-auto p-6 my-10 bg-white shadow-xl rounded-2xl border-t-4 border-ocean flex-grow text-center">
-        <i class="fa-solid fa-network-wired text-ocean text-5xl mb-4"></i>
-        <h2 class="text-3xl font-bold text-maroon mb-6">Tentang Saya</h2>
-        <p class="text-gray-700 leading-relaxed mb-8 px-4">
-            Salam semua, Saya adalah seorang antusias di bidang jaringan komputer dan teknologi. Saya suka mempelajari tentang server, infrastruktur jaringan, dan hal-hal menarik lainnya di dunia teknologi maupun alam terbuka.
-        </p>
-        <div class="flex flex-wrap justify-center gap-4">
-            <a href="artikel.html" class="text-ocean font-bold hover:text-maroon"><i class="fa-solid fa-book-open"></i> Baca Artikel Saya</a>
-            <span class="text-gray-400">|</span>
-            <a href="#" class="text-ocean font-bold hover:text-maroon"><i class="fa-solid fa-server"></i> Proyek Jaringan</a>
-            <span class="text-gray-400">|</span>
-            <a href="kontak.html" class="text-ocean font-bold hover:text-maroon"><i class="fa-solid fa-address-card"></i> Profil Lengkap</a>
+    <!-- KONTEN UTAMA -->
+    <main class="max-w-5xl mx-auto p-6 md:p-10 my-10 bg-white shadow-xl rounded-2xl border-t-4 border-ocean flex-grow">
+        
+        <!-- PROFIL RINGKAS -->
+        <section class="text-center mb-10">
+            <i class="fa-solid fa-lightbulb text-ocean text-5xl mb-4"></i>
+            <h2 class="text-3xl font-bold text-maroon mb-4">Tahukah Kamu?</h2>
+            <p class="text-gray-700 leading-relaxed text-lg max-w-2xl mx-auto">
+                Selamat datang! Di sini kita tidak cuma bahas server yang kaku, tapi juga hal-hal unik seputar teknologi jaringan yang ternyata punya hubungan unik dengan misteri lautan!
+            </p>
+        </section>
+
+        <!-- GRID FUN FACTS KREATIF -->
+        <section class="grid md:grid-cols-2 gap-6 mb-10">
+            
+            <!-- Fun Fact 1 -->
+            <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-3xl">🦈</span>
+                    <h3 class="text-xl font-bold text-maroon">Hiu Suka 'Gigit' Internet!</h3>
+                </div>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                    Kabel serat optik bawah laut memancarkan medan listrik kecil. Hiu sering mengira kabel internet ini sebagai mangsanya dan mencoba menggigitnya! Itulah kenapa sekarang kabel laut dilapisi pelindung baja ekstra tebal.
+                </p>
+            </div>
+
+            <!-- Fun Fact 2 -->
+            <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-3xl">🐬</span>
+                    <h3 class="text-xl font-bold text-maroon">Lumba-Lumba & Sistem 'Ping'</h3>
+                </div>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                    Saat komputer mengirim perintah <i>Ping</i> untuk mengecek koneksi, prosesnya mirip ekolokasi lumba-lumba: kirim gelombang sinyal, tunggu pantulan balik, lalu hitung jarak serta responsnya!
+                </p>
+            </div>
+
+            <!-- Fun Fact 3 -->
+            <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-3xl">🌐</span>
+                    <h3 class="text-xl font-bold text-maroon">Internet Itu 'Rebahan' di Laut</h3>
+                </div>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                    Banyak yang kira internet berasal dari satelit luar angkasa. Padahal, sekitar <b>99% data internet dunia</b> dikirim lewat jutaan kilometer kabel yang dibentangkan tepat di dasar samudra tempat tinggal para ikan!
+                </p>
+            </div>
+
+            <!-- Fun Fact 4 -->
+            <div class="p-6 border-2 border-ocean/20 rounded-2xl bg-blue-50/60 hover:border-ocean transition shadow-sm">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="text-3xl">🐠</span>
+                    <h3 class="text-xl font-bold text-maroon">Terumbu Karang = Data Center Alami</h3>
+                </div>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                    Sama seperti <i>Data Center</i> yang menyimpan dan membagikan informasi ke jutaan perangkat, terumbu karang adalah pusat pertukaran nutrisi dan energi paling sibuk bagi jutaan spesies laut.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- NAVIGASI HALAMAN -->
+        <div class="text-center pt-2">
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="artikel.html" class="bg-ocean text-white px-6 py-3 rounded-full font-bold hover:bg-maroon transition shadow-md flex items-center gap-2">
+                    <i class="fa-solid fa-book-open"></i> Eksplor Artikel Mamalia Laut
+                </a>
+                <a href="kontak.html" class="bg-maroon text-white px-6 py-3 rounded-full font-bold hover:bg-ocean transition shadow-md flex items-center gap-2">
+                    <i class="fa-solid fa-paper-plane"></i> Tanya-Tanya di Kontak
+                </a>
+            </div>
         </div>
+
     </main>
 
-    <!-- FOOTER (3 Hyperlink Footer) -->
+    <!-- FOOTER -->
     <footer class="bg-maroon text-white text-center py-10 border-t-8 border-ocean mt-auto">
-        <h4 class="text-2xl font-bold mb-6">Semangat percik</h4>
+        <h4 class="text-2xl font-bold mb-6">Mari Berjejaring!</h4>
         <div class="flex justify-center gap-4 flex-wrap">
-            <a href="mailto:herlangga@example.com" class="bg-ocean px-6 py-2 rounded-full hover:bg-white hover:text-maroon transition shadow-md"><i class="fa-solid fa-envelope"></i> Email</a>
-            <a href="https://github.com" target="_blank" class="bg-ocean px-6 py-2 rounded-full hover:bg-white hover:text-maroon transition shadow-md"><i class="fa-brands fa-github"></i> GitHub</a>
-            <a href="https://instagram.com" target="_blank" class="bg-ocean px-6 py-2 rounded-full hover:bg-white hover:text-maroon transition shadow-md"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" class="bg-ocean px-6 py-2 rounded-full hover:bg-white hover:text-maroon transition shadow-md"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="bg-ocean px-6 py-2 rounded-full hover:bg-white hover:text-maroon transition shadow-md"><i class="fa-brands fa-instagram"></i> Instagram</a>
         </div>
         <p class="mt-8 text-sm text-gray-300 opacity-80">&copy; 2026 Muhammad Herlangga Kurniawan.</p>
     </footer>
